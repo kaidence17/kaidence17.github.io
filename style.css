@@ -2,16 +2,23 @@ h1 {
     color:rgb(255, 255, 255);
     text-align:center;
 }
-h2 {
+figcaption {
     color:rgb(255, 255, 255);
     text-align:center;
+    font-size: 2em;
 }
 
 body {
-    background: url(githubbackground.jpeg);
+    background: url(newimage.jpg);
 }
 
 img {
 width:50%;
 outline: 4px dotted black;
+opacity: 0.2;
+  transition: opacity 1.5s;
+}
+
+img:hover {
+opacity:1;
 }
